@@ -1,0 +1,89 @@
+INFO _internal.py:88  * Running on http://0:5005/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 265-385-868
+INFO _internal.py:88  * Running on http://0:5005/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 265-385-868
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/flask-Rest_Framwork/manage.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 265-385-868
+INFO _internal.py:88  * Running on http://0:8888/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 265-385-868
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/flask-Rest_Framwork/apps/users/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+INFO _internal.py:88  * Running on http://0:8888/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 265-385-868
+INFO _internal.py:88  * Running on http://0:8888/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 265-385-868
+INFO _internal.py:88  * Running on http://0:8888/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 265-385-868
+INFO _internal.py:88 127.0.0.1 - - [10/Apr/2019 17:26:11] "GET /users/users HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://0:8888/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 265-385-868
+INFO _internal.py:88 127.0.0.1 - - [10/Apr/2019 17:27:22] "GET /users/users HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [10/Apr/2019 17:27:51] "GET /users/users HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://0:8888/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 265-385-868
+INFO _internal.py:88 127.0.0.1 - - [10/Apr/2019 17:28:48] "GET /users/users HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [10/Apr/2019 17:32:48] "GET /users/users HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [10/Apr/2019 17:34:04] "GET /users/users HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://0:8888/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 265-385-868
+INFO _internal.py:88 127.0.0.1 - - [10/Apr/2019 17:35:06] "GET /users/users HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [10/Apr/2019 17:35:15] "GET /users/users HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://0:8888/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 265-385-868
+INFO _internal.py:88 127.0.0.1 - - [10/Apr/2019 17:39:18] "GET /users/users HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://0:8888/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 265-385-868
+INFO _internal.py:88  * Running on http://0:8888/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 265-385-868
+INFO _internal.py:88  * Running on http://0:8888/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 265-385-868
+INFO _internal.py:88 127.0.0.1 - - [10/Apr/2019 17:41:53] "GET /users/users HTTP/1.1" 500 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/flask-Rest_Framwork/apps/frf/framework.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 265-385-868
+INFO _internal.py:88 127.0.0.1 - - [10/Apr/2019 17:42:39] "GET /users/users HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://0:8888/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 265-385-868
+INFO _internal.py:88 127.0.0.1 - - [10/Apr/2019 17:43:40] "GET /users/users HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://0:8888/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 265-385-868
+INFO _internal.py:88 127.0.0.1 - - [10/Apr/2019 17:45:47] "GET /users/users HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://0:8888/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 265-385-868
+INFO _internal.py:88 127.0.0.1 - - [10/Apr/2019 17:47:14] "GET /users/users HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [10/Apr/2019 17:49:39] "GET /users/users HTTP/1.1" 200 -

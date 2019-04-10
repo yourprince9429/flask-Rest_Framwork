@@ -1,0 +1,40 @@
+from apps import db
+from sqlalchemy import PrimaryKeyConstraint
+
+class User(db.Model):
+    __table_name__ = "user"
+    __table_args__ = (
+        PrimaryKeyConstraint('Host', 'User'),
+    )
+    Host = db.Column(db.String(60), nullable=False)
+    User = db.Column(db.String(32), nullable=False)
+    Select_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Insert_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Update_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Delete_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Create_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Drop_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Reload_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Shutdown_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Process_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    File_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Grant_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    References_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Index_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Alter_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Show_db_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Super_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Create_tmp_table_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Lock_tables_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Execute_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Repl_slave_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Repl_client_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Create_view_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Show_view_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Create_routine_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Alter_routine_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Create_user_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Event_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Trigger_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    Create_tablespace_priv = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
+    password_expired = db.Column(db.Enum('N', 'Y'), nullable=False, default='N')
