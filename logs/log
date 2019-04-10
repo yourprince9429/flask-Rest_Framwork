@@ -87,3 +87,7 @@ WARNING _internal.py:88  * Debugger is active!
 INFO _internal.py:88  * Debugger PIN: 265-385-868
 INFO _internal.py:88 127.0.0.1 - - [10/Apr/2019 17:47:14] "GET /users/users HTTP/1.1" 200 -
 INFO _internal.py:88 127.0.0.1 - - [10/Apr/2019 17:49:39] "GET /users/users HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/flask-Rest_Framwork/apps/frf/serializer.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 265-385-868

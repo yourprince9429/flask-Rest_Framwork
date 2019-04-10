@@ -29,7 +29,7 @@ error_map = {
     RET.LOGINERR: u"用户登录失败",
     RET.PARAMERR: u"参数错误",
     RET.USERERR: u"用户不存在",
-    RET.UNBOUND:u"用户未绑定",
+    RET.UNBOUND: u"用户未绑定",
     RET.ROLEERR: u"用户身份错误",
     RET.PWDERR: u"密码错误",
     RET.REQERR: u"非法请求或请求次数受限",

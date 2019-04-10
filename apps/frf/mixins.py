@@ -94,8 +94,10 @@ class CreateAPIView(object):
         data = serializer.serialize_return_data(instance_dict)
         data = self.add_data_post(data)
         return jsonify(code=RET.OK, msg='ok', data=data)
+
     def add_data_post(self, data_dict):
         return data_dict
+
 
 class UpdateAPIView(object):
     def put(self):
@@ -157,8 +159,10 @@ class UpdateAPIView(object):
             return jsonify(code=RET.NODATA, msg="没有数据", data="")
         data = self.add_data_put(data)
         return jsonify(code=RET.OK, msg='ok', data=data)
+
     def add_data_put(self, data_dict):
         return data_dict
+
 
 class DeleteAPIView(object):
     def delete(self):

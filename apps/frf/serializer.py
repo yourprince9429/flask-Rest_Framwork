@@ -232,6 +232,6 @@ class MultiSerializer(Serializer):
         }
     }
     """
+
     def __init__(self):
         super(MultiSerializer, self).__init__()
-
